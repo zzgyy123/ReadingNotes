@@ -140,7 +140,7 @@ gitcafe 添加 ssh 公钥同理。
 
 因为你用的是 https 而不是 ssh。 可以更新一下 origin:
 
-git remote remove origin
+git remote remove origin<br/>
 git remote add origin git@github.com:Username/Your_Repo_Name.git
 注意：如果你的仓库没有add ssh 只是在.ssh上添加了，在你的仓库里还要添加一次这样才会生效。添加步骤同上。可能要等一分钟左右才会生效。
 
