@@ -116,6 +116,7 @@ gitcafe 添加 ssh 公钥同理。
     $ ssh -T git@github.com
 然后出现了奇怪的东东，布拉布拉，yes/no，不管它 输入yes。接着会看见您的大名，OK，连接成功，gitcafe 同理请将 $ ssh -T git@gitcafe.com。 来上图，感受下:
 
+或者参考 https://stackoverflow.com/questions/23537881/fingerprint-has-already-been-taken-gitlab 解决 gitlab 上多个key 的问题
 
 
 <h5 id="question2-6">Q6 如何将 blog 同时托管到 gitcafe 和 github 上？</h5>
